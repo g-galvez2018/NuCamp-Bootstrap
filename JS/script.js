@@ -11,6 +11,14 @@ $(function () {
       $("#carouselButton").children("i").addClass("fa-pause");
     }
   });
+  //TASK 2
+  $("#reserveButton").click(function () {
+    console.log("reserve");
+    $("#reserveModal").modal('show');
+  })
+  $('#loginButton').click(function () {    
+    $('#loginModal').modal('show');
+  });
 });
 
 
